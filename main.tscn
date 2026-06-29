@@ -153,9 +153,9 @@ shape = SubResource("SphereShape3D_7tbbo")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2.5, -2.5)
 mesh = SubResource("SphereMesh_7tbbo")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=810872460]
+[node name="UI Layer" type="CanvasLayer" parent="." unique_id=810872460]
 
-[node name="Label" type="Label" parent="CanvasLayer" unique_id=2069842020]
+[node name="Cursor (placeholder)" type="Label" parent="UI Layer" unique_id=2069842020]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
